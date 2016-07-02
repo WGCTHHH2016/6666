@@ -16,6 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    for (int i = 0; i<10; i++) {
+        NSLog(@"%d", i);
+    }
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
